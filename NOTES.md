@@ -1,6 +1,6 @@
 # NOTES: Three Layers
 
-Your name: TODO
+
 
 Fill each TODO. Write plain, short sentences. Do not delete the headings.
 
@@ -49,6 +49,7 @@ Which file holds the rules and does not change when the database changes? TODO
 
 Write 3 to 5 sentences. Pick one layer. Say what you changed in it. Say what stayed the same in the other two layers. TODO
 
-## Beta feedback (optional)
+## Beta feedback (optional) (55)
 
 This bonus is a beta test. Which step took longer than its time? What confused you? Write it here. Your answer helps the next class.
+
