@@ -25,7 +25,7 @@ Which file made that possible? Jsonfile
 
 ## Part 3. The interface change [S1]
 
-What did you change in `app.py`? Message
+What did you change in `app.py`? No change
 
 Why did no test need to change? No change
 
@@ -37,19 +37,18 @@ The same 10-problem rule exists in the real library. Write the file and the func
 
 With the rule removed from the library, what did the screen show? Error
 
-With the rule removed, which test failed? TODO
+With the rule removed, which test failed? , add_problem never refuses anything.
 
 ## Part 6. The data swap [S2]
 
-A real database would replace which file? TODO
+A real database would replace which file? JsonFileStore and MemoryStore are the two database stand-ins, and the docstring says swapping them leaves logic.py unchanged. T
 
-Which file holds the rules and does not change when the database changes? TODO
-
+Which file holds the rules and does not change when the database changes? JsonFileStore and MemoryStore are the two database stand-ins, and the docstring says swapping them leaves logic.py unchanged. 
 ## Reflection [S2]
 
-Write 3 to 5 sentences. Pick one layer. Say what you changed in it. Say what stayed the same in the other two layers. TODO
+Write 3 to 5 sentences. Pick one layer. Say what you changed in it. Say what stayed the same in the other two layers. I didnt make too many changes to the code. 
 
 ## Beta feedback (optional) (55)
 
 This bonus is a beta test. Which step took longer than its time? What confused you? Write it here. Your answer helps the next class.
-
+Honestly; everything is confusing to me. 
