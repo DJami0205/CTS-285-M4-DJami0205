@@ -10,32 +10,32 @@ Write your prediction before you open any code. Then search. In the last column,
 
 | Action | Search word | My prediction (file) | Files found and what each does |
 |---|---|---|---|
-| Prints "Not yet. Try again." | `Not yet` | TODO | TODO |
-| Decides that the second miss shows the answer | `reveal` | TODO | TODO |
-| Saves one attempt | `save_attempt` | TODO | TODO |
-| Refuses the 11th problem | `SetFull` | TODO | TODO |
+| Prints "Not yet. Try again." | `Not yet` | app.py | app.py |
+| Decides that the second miss shows the answer | `reveal` | logic.py | logic.py |
+| Saves one attempt | `save_attempt` | | store.py|
+| Refuses the 11th problem | `SetFull` | logic.py | logic.py |
 
 Search command: `grep -rn "SEARCH WORD" --include=*.py .`
 
 ## Part 2. What the program remembered [S1]
 
-After the restart, what did the program remember? TODO
+After the restart, what did the program remember? store.py
 
-Which file made that possible? TODO
+Which file made that possible? Jsonfile
 
 ## Part 3. The interface change [S1]
 
-What did you change in `app.py`? TODO
+What did you change in `app.py`? Message
 
-Why did no test need to change? TODO
+Why did no test need to change? No change
 
 ## Part 4. The rule in the real library [S2]
 
-The same 10-problem rule exists in the real library. Write the file and the function name. TODO
+The same 10-problem rule exists in the real library. Write the file and the function name. File: dataman/logic.py. Function: MemoryBank.add_problem.
 
 ## Part 5. The red test [S2]
 
-With the rule removed from the library, what did the screen show? TODO
+With the rule removed from the library, what did the screen show? Error
 
 With the rule removed, which test failed? TODO
 
